@@ -1,0 +1,25 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root { color: #17324d; background: #f5f2ec; font-family: Inter, ui-sans-serif, sans-serif; } * { box-sizing: border-box; } body { margin: 0; } button, input, select, textarea { font: inherit; } .serif { font-family: Georgia, serif; } .page { min-height: 100vh; }
+.auth-page { display: flex; align-items: flex-start; justify-content: center; background: #f5f2ec; }
+.auth-page > .container {
+  width: min(520px, calc(100% - 40px));
+  margin-top: 72px;
+}
+.container { width: min(1180px, calc(100% - 40px)); margin: auto; }
+.btn { border: 0; cursor: pointer; border-radius: 3px; padding: 12px 18px; font-weight: 700; transition: transform .2s, opacity .2s; }
+.btn:hover { transform: translateY(-2px); opacity: .9; }
+.btn-primary { color: white; background: #f26b4f; }
+.btn-dark { color: white; background: #17324d; }
+.btn-light { color: #17324d; background: white; border: 1px solid #d8d1c5; }
+.field { width: 100%; border: 1px solid #d8d1c5; background: white; padding: 12px 13px; border-radius: 3px; outline: none; font-size: 1.05rem; color: #17324d; }
+.field::placeholder { color: #8d97a3; }
+.field:focus { border-color: #f26b4f; }
+.product-image { aspect-ratio: 1 / 1.08; width: 100%; object-fit: cover; background: #e4e0d7; }
+.reveal { animation: reveal .6s ease both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+
+@media (max-width: 640px) {
+  .auth-page > .container {
+    margin-top: 32px;
+  }
+}
