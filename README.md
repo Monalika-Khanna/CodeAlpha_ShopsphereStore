@@ -54,7 +54,8 @@ Client: `VITE_API_URL` and `VITE_GOOGLE_CLIENT_ID`. Set both Google client ID va
 
 ## Screenshots
 
-Add storefront and admin screenshots here for your internship portfolio.
+
+<img width="757" height="401" alt="Screenshot 2026-09-06 172736" src="https://github.com/user-attachments/assets/0b144cc5-0ab5-4328-85ea-ef3a10afda32" />
 
 ## Future improvements
 
