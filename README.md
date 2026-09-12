@@ -60,4 +60,3 @@ Client: `VITE_API_URL` and `VITE_GOOGLE_CLIENT_ID`. Set both Google client ID va
 ## Future improvements
 
 Add Cloudinary uploads, Stripe payment intents, pagination, product reviews, email notifications, refresh tokens, and automated integration tests backed by a test database.
-"# CodeAlpha_ProjectName" 
